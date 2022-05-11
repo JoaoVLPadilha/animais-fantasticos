@@ -7,7 +7,7 @@ export default class Accordion {
   toggleAccordion(item) {
     item.classList.toggle(this.activeClass);
     item.nextElementSibling.classList.toggle(this.activeClass);
-    console.log('o', item)
+
   }
 
   // Add events for accordion
