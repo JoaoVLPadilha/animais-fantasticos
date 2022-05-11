@@ -19,8 +19,7 @@ accordion.init();
 const tabNav = new TabNav('[data-tab="menu"] li','[data-tab="content"] section');
 tabNav.init();
 
-// initAccordion();
-// initTabNav();
+
 initModal();
 initTooltip();
 initDropdownMenu();
