@@ -22,7 +22,6 @@ export default class ScrollAnima {
 
 
   checkDistance(){
-    console.log('teste')
     this.getDistance().forEach(item => {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add("ativo")
